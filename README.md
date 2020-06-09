@@ -43,14 +43,4 @@ npm publish//发布插件
 
 此时源码是公开的,如果你不想公开源码，你可以`npm run build`之后，你可以把
 
-index.js里面修改代码
-
-```javascript
-import Main from './dist/wbw-test'
-// import Main from './src/components/Main'
-import _Vue from 'vue'
-```
-
-然后在.gitignore里面把components文件取消上传，只调用dist里面压缩好的文件就ok了，
-
-当然  更好的方法目前还不知道
+`.gitignore`里面不上传src文件
