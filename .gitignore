@@ -2,8 +2,9 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-/dist
-# src/components
+# /dist
+# 当不公开源码的时候可以不上传src
+# /src
 # Editor directories and files
 .idea
 *.suo
