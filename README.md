@@ -44,3 +44,10 @@ npm publish//发布插件
 此时源码是公开的,如果你不想公开源码，你可以`npm run build`之后，你可以把
 
 `.gitignore`里面不上传src文件
+
+```javascript
+删除已经发布的包
+  npm unpublish --force //强制删除，这个是撤销24小时发布的包，有些包发布久了，这个方法不会再管用了。
+  npx force-unpublish package-name '原因描述' //是删除已经发布好的包
+```
+
