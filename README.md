@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-
+一个用来分享组件的框架
 
 ## Build Setup
 
